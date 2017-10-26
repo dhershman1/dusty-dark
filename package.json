@@ -1,0 +1,45 @@
+{
+	"name": "Theme-Dusty-Dark",
+	"displayName": "Dusty Dark Theme",
+	"description": "Another Dark theme that uses easier to read syntax based off Dusty Light",
+	"version": "0.1.0",
+	"publisher": "dhershman",
+	"author": "Dustin Hershman",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"license": "MIT",
+	"categories": [
+		"Themes"
+	],
+	"icon": "icon.png",
+	"homepage": "https://github.com/dhershman1/dusty-dark/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/dhershman1/dusty-dark.git"
+	},
+	"galleryBanner": {
+		"color": "#2a2a2a",
+		"theme": "dark"
+	},
+	"keywords": [
+		"dusty",
+		"dark",
+		"theme",
+		"color-theme"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Dusty Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dusty-dark.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "00674b12-5350-40f4-8c60-ae41f97abbab",
+		"publisherId": "8390e5a7-db51-4cbb-ab99-781dfe905a44",
+		"publisherDisplayName": "dhershman"
+	}
+}
