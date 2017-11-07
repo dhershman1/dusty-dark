@@ -20,7 +20,7 @@
     "editor.invisibles": "#21252B",
     "editor.selectionBackground": "#707070",
     "editor.rangeHighlightBackground": "#707070",
-    "editor.lineHighlightBackground": "#5c5c5c",
+    "editor.lineHighlightBackground": "#393939",
     "editorHoverWidget.background": "#393939",
     "editorHoverWidget.border": "#181A1F",
     "editorOverviewRuler.border": "#2a2a2a",
@@ -259,6 +259,8 @@
       "name": "Tag Attributes",
       "scope": [
         "meta.tag.inline.any",
+        "meta.tag.any.html",
+        "meta.tag.other.html",
         "meta.tag.block.any.html"
       ],
       "settings": {
